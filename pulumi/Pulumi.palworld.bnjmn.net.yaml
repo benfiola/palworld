@@ -1,0 +1,10 @@
+secretsprovider: gcpkms://projects/palworld-411904/locations/us-west1/keyRings/pulumi/cryptoKeys/pulumi
+encryptedkey: CiQAcyH6uA5eGj/ZC0nY8HSvz2hrpBsmdPwOfscHRR/GbPoaHZYSSQBEyZJv2qehXHQe9GfMFVgWGYtNvuQtx9q/AD2jPJc81F98ccBDx2dz0EtlhQc3vh4ouGhdSPh//Dg1cHtMEgYxQgpnPrXu8w8=
+config:
+  gcp:project: palworld-411904
+  gcp:region: us-west1
+  gcp:zone: "us-west1-a"
+  palworld:image: docker.io/benfiola/palworld:0.1.2.0-3
+  palworld:settings:
+    PALWORLD_DEATH_PENALTY: "Item"
+    PALWORLD_PAL_EGG_DEFAULT_HATCHING_TIME: "3.0000"

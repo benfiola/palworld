@@ -1,0 +1,5 @@
+name: palworld
+runtime: nodejs
+description: Palworld GCP server deployment
+config:
+  pulumi:disable-default-providers: ["*"]

@@ -1,0 +1,11 @@
+{
+  "name": "palworld",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^18"
+  },
+  "dependencies": {
+    "@pulumi/gcp": "^7.6.0",
+    "@pulumi/pulumi": "^3.0.0"
+  }
+}
