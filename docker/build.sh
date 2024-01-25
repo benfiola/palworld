@@ -17,7 +17,7 @@ PUSH="${PUSH:-0}"
 
 repo="docker.io"
 image="benfiola/palworld"
-version="0.1.2.0-3"
+version="0.1.3.0-2"
 
 echo "building image"
 docker build -t "${repo}/${image}:${version}" -t "${image}:${version}" -t "${image}:latest" .

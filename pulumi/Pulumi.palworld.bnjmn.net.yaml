@@ -4,7 +4,7 @@ config:
   gcp:project: palworld-411904
   gcp:region: us-west1
   gcp:zone: "us-west1-a"
-  palworld:image: docker.io/benfiola/palworld:0.1.2.0-3
+  palworld:image: docker.io/benfiola/palworld:0.1.3.0-2
   palworld:settings:
     PALWORLD_DEATH_PENALTY: "Item"
     PALWORLD_PAL_EGG_DEFAULT_HATCHING_TIME: "3.0000"

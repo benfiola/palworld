@@ -1,4 +1,8 @@
 FROM cm2network/steamcmd:latest AS download
+
+# this environment variable primarily busts the docker layer cache 
+ENV PALWORLD_VERSION=0.1.3.0
+
 RUN \
     # make steamclient.so symlinks portable
     rm -rf /home/steam/.steam/sdk32/steamclient.so /home/steam/.steam/sdk64/steamclient.so \
